@@ -1,0 +1,136 @@
+[
+  {
+    "inputs": [],
+    "name": "getAllParkingCar",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address payable",
+            "name": "carOwner",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "carNumber",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "carImage",
+            "type": "string"
+          },
+          {
+            "internalType": "bool",
+            "name": "isParked",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct Carparking.ParkingCar[]",
+        "name": "parkingCar",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getCarsAmount",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_index",
+        "type": "uint256"
+      }
+    ],
+    "name": "getParkingCar",
+    "outputs": [
+      {
+        "internalType": "address payable",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getParkingFee",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getParkingSlotNumber",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_carNumber",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_carImage",
+        "type": "string"
+      }
+    ],
+    "name": "parking",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_carNumber",
+        "type": "string"
+      }
+    ],
+    "name": "unParking",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]
