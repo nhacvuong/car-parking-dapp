@@ -18,7 +18,7 @@ This is a very simple car parking dapp where users can:
 
 ### Test
 1. Create two accounts.
-2. Park a car using first account.
+2. Park a car using first account. Input car number and car image.
 3. Switch to second account, and you will not see the parked car from first account.
 4. Park another car using second account. You could not park the same car number with first account.
 5. Un-park the car and send owner cUSD tokens.
